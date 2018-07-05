@@ -12,7 +12,6 @@
 		35A4CD9A20ED192300A66917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A4CD9820ED192300A66917 /* Main.storyboard */; };
 		35A4CD9C20ED192500A66917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A4CD9B20ED192500A66917 /* Assets.xcassets */; };
 		35A4CD9F20ED192500A66917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A4CD9D20ED192500A66917 /* LaunchScreen.storyboard */; };
-		35A4CDA920ED1B9D00A66917 /* ActivityClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 35A4CDA820ED1B9C00A66917 /* ActivityClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		35A4CD9B20ED192500A66917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35A4CD9E20ED192500A66917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35A4CDA020ED192500A66917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35A4CDA820ED1B9C00A66917 /* ActivityClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ActivityClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +54,6 @@
 		35A4CD9320ED192300A66917 /* ActivityClassifier */ = {
 			isa = PBXGroup;
 			children = (
-				35A4CDA820ED1B9C00A66917 /* ActivityClassifier.mlmodel */,
 				35A4CD9420ED192300A66917 /* AppDelegate.swift */,
 				35A4CD9620ED192300A66917 /* ViewController.swift */,
 				35A4CD9820ED192300A66917 /* Main.storyboard */,
@@ -138,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A4CDA920ED1B9D00A66917 /* ActivityClassifier.mlmodel in Sources */,
 				35A4CD9720ED192300A66917 /* ViewController.swift in Sources */,
 				35A4CD9520ED192300A66917 /* AppDelegate.swift in Sources */,
 			);

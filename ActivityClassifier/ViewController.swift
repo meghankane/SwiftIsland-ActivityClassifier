@@ -117,23 +117,20 @@ class ViewController: UIViewController {
         guard let dataArray = predictionWindowDataArray else { return }
         
         // 1. Perform model prediction
-        let modelPrediction = try? activityClassificationModel.prediction(features: dataArray,
-                                                                          hiddenIn: lastHiddenOutput,
-                                                                          cellIn: lastHiddenCellOutput)
+        
+        // ** YOUR CODE GOES HERE ** //
         
         // 2. Update the state vectors
-        lastHiddenOutput = modelPrediction?.hiddenOut
-        lastHiddenCellOutput = modelPrediction?.cellOut
+        
+        // ** YOUR CODE GOES HERE ** //
         
         // 3. Return the predicted activity - the activity with the highest probability
-        guard let topActivity = modelPrediction?.activity else {
-            setLabelsToDefaultText()
-            return
-        }
+        
+        // ** YOUR CODE GOES HERE ** //
         
         // 4. Update UI
-        activityLabel.text = topActivity
-        probabilityLabel.text = "\(String(describing: modelPrediction?.activityProbability[topActivity]))"
+        
+        // ** YOUR CODE GOES HERE ** //
     }
     
     private func setLabelsToDefaultText() {
